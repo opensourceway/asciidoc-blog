@@ -30,3 +30,7 @@ Useful resources
 * Vim Plugins
  - http://www.vim.org/scripts/script.php?script_id=1832[Asciidoc Syntax]
  - http://www.vim.org/scripts/script.php?script_id=2882[Markdown Syntax]
+
+Demo and source materials
++++++++++++++++++++++++++
+ * http://github.com/digitalcraftsman[Theme Author]
