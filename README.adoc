@@ -1,0 +1,32 @@
+
+:Author:    Andy Thornton
+:Email:     andy.thornton@redhat.com
+
+Creating a blog using Asciidoc and Hugo
+
+Support files for article on creating a blog using Asciidoc and Hugo
+
+Useful resources
+++++++++++++++++
+
+.Hugo
+* https://gohugo.io/[Hugo]
+ - https://gohugo.io/getting-started/installing/[Installation]
+ - https://gohugo.io/getting-started/quick-start/[Quick Start Guide]
+ - https://github.com/gohugoio/hugo[Github Repo]
+ - https://gohugo.io/tools/starter-kits/[Starter Kits]
+* https://themes.gohugo.io/[Hugo Themes]
+* https://discourse.gohugo.io/[Community]
+
+.Asciidoc
+* http://asciidoc.org/[Asciidoc]
+ - http://asciidoc.org/#_overview_and_examples[Code Examples]
+ - http://asciidoc.org/userguide.html[User Guide]
+ - http://powerman.name/doc/asciidoc[Cheat Sheet]
+* http://asciidoctor.org/[Asciidoctor]
+
+.Editors and Frontends
+* https://atom.io/[Atom Editor]
+* Vim Plugins
+ - http://www.vim.org/scripts/script.php?script_id=1832[Asciidoc Syntax]
+ - http://www.vim.org/scripts/script.php?script_id=2882[Markdown Syntax]
