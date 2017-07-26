@@ -33,4 +33,5 @@ Useful resources
 
 Demo and source materials
 +++++++++++++++++++++++++
+ * Demo Website
  * http://github.com/digitalcraftsman[Theme Author]
