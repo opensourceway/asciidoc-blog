@@ -6,8 +6,8 @@ categories: ["Lorem"]
 date: "2017-08-03T13:39:46+02:00"
 ---
 
-== Welcome to the demo site
-Here's some notes to get you started. This repo contains source materials to accompany the article on opensource.com for getting started with Hugo and asciidoc as a web development platform.
+== Creating a blog using Asciidoc and Hugo
+This repo contains source materials to accompany the article on opensource.com for getting started with Hugo and asciidoc as a web development platform.
 
 [#img-homepage]
 .The server
@@ -40,17 +40,28 @@ For more detailed installation information, visit the following guides.
 The best guide for https://gohugo.io/getting-started/installing/[installing Hugo] is on their website. I found it was worth following this guide rather than use the package maintained in the Ubuntu repo as it was older and caused problems with modern themes.
 
 ==== How do I use these files?
-The repo contains a demo website with some sample articles in Asciidoc.
+The repo contains a demo website with some sample articles in Asciidoc. The following folders are useful starting points.
 
 .Clone the repo
 [source,bash]
 ----
 git clone git@github.com:opensourceway/asciidoc-blog.git
-cd asciidoc-blog
+----
+[#img-folders]
+.The server
+[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-folders.png]
+image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-folders.png[Folders Overview]
+
+For more information, checkout the documentation on the https://gohugo.io/getting-started/directory-structure/[Hugo Homepage]
+
+.Starting the server
+From the root directory of the cloned repo:
+[source,bash]
+----
 hugo server  --buildDrafts
 ----
 
-The last command will run the server where you can see your website locally on http://localhost:1313[http://localhost:1313].
+This will run the server where you can see your website locally on http://localhost:1313[http://localhost:1313].
 
 [#img-server]
 .The server
@@ -59,7 +70,15 @@ image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/stat
 
 To make changes to the setup, you can edit the config.toml file and set your website preferences up. The site contains initial setup parameters.
 
-Content is available under the folder content/post. There's a combination of Markdown and Asciidoc files.
+Content is available under the folder content/post. There are some example articles available to get you started.
+
+== Where to go from here?
+You can tailor the site in the config.toml file to personalise your setup. There are a number of themes available to further customise your site too.
+The language behind the more dynamic elements is very well implemented and there's excellent documentation on the Hugo website. The theme used in this demo is the https://themes.gohugo.io/strata/[Strata Theme] by https://github.com/digitalcraftsman[Digitalcraftsman] which has detailed documentation on configuration options available on it's https://github.com/digitalcraftsman/hugo-strata-theme[github page].
+
+== Thanks and credit due.
+
+Thanks to http://spf13.com[Steve Francia]	for https://gohugo.io/[Hugo], for producing an amazing platform and fun to play with. The https://github.com/digitalcraftsman/hugo-strata-theme[Strata theme] port and the community around Hugo.
 
 Useful resources
 ++++++++++++++++
@@ -88,5 +107,5 @@ Useful resources
 
 Demo and source materials
 +++++++++++++++++++++++++
- * Demo Website
+ * https://themes.gohugo.io/strata/[Strata Theme]
  * http://spf13.com/[Steve Francia's homepage] maintainer of Hugo
