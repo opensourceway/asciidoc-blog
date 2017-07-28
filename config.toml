@@ -29,7 +29,7 @@ paginate = 10
 		bio = "**Welcome**, demo of a simple<br /> responsive blog using Hugo and articles <br />written in Asciidoc."
 		# The icons will be shown if you enter your username
 		twitter = "opensourceway"
-		github = "opensourceway"
+		github = "opensourceway/asciidoc-blog"
 		gitlab = ""
 		dribbble = ""
 		facebook = "opensourceway"

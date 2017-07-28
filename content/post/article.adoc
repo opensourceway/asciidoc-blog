@@ -1,0 +1,68 @@
+---
+title: "Using Asciidoc for Web Development"
+date: 2017-07-28T15:06:07-04:00
+draft: false
+categories: ["Lorem"]
+---
+
+= A different kind of development platform
+
+During my day job, I work with content management systems and documentation. The main language of choice for
+documentation is Asciidoc. It has a simple syntax, but enough features to keep even a hard core techie happy.
+You can get up and running very quickly as the syntax is close to normal text.
+
+This got me thinking, "Wouldn't it be handy to be able to maintain a blog purely with Asciidoc?"
+
+Some quick Googling and chatting with colleagues and I was introduced to Hugo which is a platform which can
+work with MarkDown and Asciidoc through the use of Asciidoctor to generate a web page. The platform has a rich
+language for working with templates and content and could be used to build a blog with enough functionality to keep
+me happy, but without the need for a database. The pages are rendered HTML so the site is blazingly fast and
+very easy to maintain. It even comes with it's own server so I can test my site while I work on it.
+
+The site it builds, doesn't run on a platform which requires a database or even the need to run a language such as PHP.
+This makes it especially handy if you're working on a site relating to security where the chance of being hacked is a real concern.
+There's no database, so no issues with SQL injection. It also means the website is much faster than a traditional blog platform.
+As long as your site can deliver HTML, you're good to go. Combining this with a CDN and you have a very fast site.
+
+Hugo also supports tasks which are normally driven by your blogging platform, such as RSS feed generation. Feeds can be generated
+automatically when a new article is added. You can maintain articles in a "draft" state which will show up on your local machine, but
+won't be published until you mark them as ready for the world. Combining this with a Git branching strategy means multiple authors can
+work on articles and book them back into your main branch when ready to publish. Everyone can run a copy of the site locally
+while they work on their articles.
+
+I know I have said this before, that I want to build a blog that's simple where I can concentrate on
+the content and not the mechanics but I always end up giving in and tweaking it a little bit, then a little bit more,
+then a weekend is gone and I haven't written anything, just played with the theme. Hugo has a decent template system which
+satisfies my need to tweak the site, but as the core articles are written in Asciidoc, there's little to play with other than
+writing the article itself. Asciidoc also has great support transforming my content into other formats, such as a PDF.
+
+This is done through "Asciidoctor" which is a digital swiss army knife for Asciidoc. Hugo uses Asciidoctor to
+convert the documents while I write them so I can see a live preview. It also helps me identify places my content needs work.
+Hugo runs in a console and shows me any syntax issues in my document. So I can fix them and move on. Which is different to my usual process
+
+[quote, Me at 3am on very little sleep and too much coffee']
+____
+It's done! and now to post my masterpiece to the world! ....
+wait a minute, why is all my text a H1...... I hate myself.
+____
+
+== Documentation workflow
+I can write my first drafts in plain English, to get everything started. Once I have that down and given it a couple of passes
+to make sure everything flows well, I can add asciidoc builds clean HTML. If you do the same task again and again as an
+author, you can create templates in Hugo which can build a default doc each time you want to start a new article. You can also
+define metadata which can later be used by your theme to help organise content. Tagging articles for example. Asciidoc also supports
+the use of includes, so a standard footer with a creative commons license is easy to add with a simple addition to a template. It also helps
+if you want to include a boilerplate sentence. For instance, if you want to add a paragraph which describes "how to contact support", you can
+create an include for the text and then include it in any documents you want to have that section.
+
+If you are looking for a more visual approach to working with articles, you can use the Atom editor with an asciidoc preview plugin in order
+to view your document in realtime. It's support for git helps with publishing content back to github.
+
+[#img-atom]
+.Atom Editor, click for full screen
+[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor.png]
+image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor-thumbnail.png[Atom Editor with preview plugin]
+
+If you are interested in getting started with Hugo and Asciidoc, I put together a demo website with content and
+they are available from the https://github.com/opensourceway/asciidoc-blog[Opensourceway Github page]. Rather than filling this article with step by step instructions
+on how to download and tweak Hugo and Asciidoc, I have put notes into the website along with links to resources online to help get you started.
