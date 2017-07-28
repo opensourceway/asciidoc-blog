@@ -74,7 +74,8 @@ The language behind the more dynamic elements is very well implemented and there
 
 == Thanks and credit due.
 
-Thanks to http://spf13.com[Steve Francia]	for https://gohugo.io/[Hugo], for producing an amazing platform and fun to play with. The https://github.com/digitalcraftsman/hugo-strata-theme[Strata theme] port and the community around Hugo.
+Thanks to http://spf13.com[Steve Francia]	for https://gohugo.io/[Hugo], for producing an amazing platform and fun to play with.
+The https://github.com/digitalcraftsman/hugo-strata-theme[Strata theme] port and the https://discourse.gohugo.io/[Hugo community].
 
 Useful resources
 ++++++++++++++++
