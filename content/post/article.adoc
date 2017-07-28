@@ -47,16 +47,24 @@ wait a minute, why is all my text a H1...... I hate myself.
 ____
 
 == Documentation workflow
-I can write my first drafts in plain English, to get everything started. Once I have that down and given it a couple of passes
-to make sure everything flows well, I can add asciidoc builds clean HTML. If you do the same task again and again as an
-author, you can create templates in Hugo which can build a default doc each time you want to start a new article. You can also
-define metadata which can later be used by your theme to help organise content. Tagging articles for example. Asciidoc also supports
-the use of includes, so a standard footer with a creative commons license is easy to add with a simple addition to a template. It also helps
-if you want to include a boilerplate sentence. For instance, if you want to add a paragraph which describes "how to contact support", you can
-create an include for the text and then include it in any documents you want to have that section.
+I normally write my first drafts in plain English, to get everything started. I normally create a new branch in git for each article
+which keeps things nice and simple. Once I have that down and given it a couple of passes to make sure everything flows well, I add asciidoc
+markup so it can format the article as clean HTML. When the article is ready to publish, I merge it back into my master branch.
 
-If you are looking for a more visual approach to working with articles, you can use the Atom editor with an asciidoc preview plugin in order
-to view your document in realtime. It's support for git helps with publishing content back to github.
+If I need to add the same text repeatedly, I use an include to contain boilerplate text. These can be setup in my template or I can add them as needed
+this means I can include a standard license statement or define a different license depending on the type or article I am writing. It's also handy if
+I want to insert a paragraph across different pages, for instance: a note about how to contact the author, or how to submit a support ticket.
+
+You can also define metadata which can later be used by your theme to help organise content. Tagging articles and grouping content as an example. Handy if you
+want to define a page as a "solution" or an FAQ. The template language provides a feature rich system for grouping and working with content. This is especially
+handy with Asciidoc as the header of a document will have standard metadata sections which may be different between an article and a blog post. I can define them
+within Hugo and it does the work for me when I create a new piece of content.
+
+== Working with Asciidoc
+My default editor of choice is Vim, which has syntax files available for Asciidoc. If you are looking for a more visual approach to working with
+content, I recommend the Atom editor with an asciidoc preview plugin which makes working with Asciidoc very easy. It helps check your document as well as provide
+a real-time preview of your page. As the editor was created by GitHub, it has built in support for working with Git, so working on documents across different
+branches becomes straight forward.
 
 [#img-atom]
 .Atom Editor, click for full screen
@@ -64,5 +72,5 @@ to view your document in realtime. It's support for git helps with publishing co
 image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor-thumbnail.png[Atom Editor with preview plugin]
 
 If you are interested in getting started with Hugo and Asciidoc, I put together a demo website with content and
-they are available from the https://github.com/opensourceway/asciidoc-blog[Opensourceway Github page]. Rather than filling this article with step by step instructions
-on how to download and tweak Hugo and Asciidoc, I have put notes into the website along with links to resources online to help get you started.
+they are available from the https://github.com/opensourceway/asciidoc-blog[Opensourceway's Github] page. Rather than filling this article with step by step instructions
+on how to download and tweak Hugo and Asciidoc, I have put notes into the website along with links to resources on-line to help get you started.

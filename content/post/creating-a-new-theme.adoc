@@ -1,5 +1,5 @@
 ---
-title: "Creating a new theme"
+title: "Creating a theme"
 date: 2017-07-26T14:31:37-04:00
 draft: false
 categories: ["Lorem"]
