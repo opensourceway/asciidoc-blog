@@ -74,7 +74,7 @@ there are a number of plugins which make working with Asciidoc easier as well as
 
 If you are looking for something more visual, I would recommend the https://atom.io/[Atom editor] from GitHub.
 It has plugins which provide a real-time preview of your work and makes it easier to work with GitHub.
-Using Hugo, Asciidoc and the Atom editor, gives you a complete publishing system with real time previews and a local server to run validation against.
+Using Hugo, Asciidoc and the Atom editor, you have a complete publishing system with real time previews and a local server to run validation against.
 
 [#img-atom]
 .Atom Editor, click for full screen
