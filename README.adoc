@@ -36,21 +36,28 @@ For more detailed installation information, visit the following guides.
 The best guide for https://gohugo.io/getting-started/installing/[installing Hugo] is on their website. I found it was worth following this guide rather than use the package maintained in the Ubuntu repo as it was older and caused problems with modern themes.
 
 ==== How do I use these files?
-The repo contains a demo website with some sample articles in Asciidoc. The following folders will be
+The repo contains a demo website with some sample articles in Asciidoc. The following folders are useful starting points.
 
 .Clone the repo
 [source,bash]
 ----
 git clone git@github.com:opensourceway/asciidoc-blog.git
-cd asciidoc-blog
-hugo server  --buildDrafts
 ----
 [#img-folders]
 .The server
 [link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-folders.png]
 image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-folders.png[Folders Overview]
 
-The last command will run the server where you can see your website locally on http://localhost:1313[http://localhost:1313].
+For more information, checkout the documentation on the https://gohugo.io/getting-started/directory-structure/[Hugo Homepage]
+
+.Starting the server
+From the root directory of the cloned repo:
+[source,bash]
+----
+hugo server  --buildDrafts
+----
+
+This will run the server where you can see your website locally on http://localhost:1313[http://localhost:1313].
 
 [#img-server]
 .The server
