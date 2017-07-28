@@ -44,7 +44,7 @@ hugo server  --buildDrafts
 
 If everything works, you can see the website on http://localhost:1313[http://localhost:1313]. To make changes to the setup, you can edit the config.toml file and set your website preferences up. The site contains initial setup parameters.
 
-Content is available under the folder content/port. There's a combination of Markdown and Asciidoc files.
+Content is available under the folder content/post. There's a combination of Markdown and Asciidoc files.
 
 Useful resources
 ++++++++++++++++

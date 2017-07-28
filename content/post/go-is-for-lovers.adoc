@@ -1,4 +1,3 @@
-
 ---
 title: "Go is for lovers"
 date: 2017-07-26T14:31:37-04:00
@@ -7,6 +6,7 @@ categories: ["Lorem"]
 date: "2017-08-03T13:39:46+02:00"
 ---
 
+== Go is for lovers!
 Hugo uses the excellent http://golang.org/[go]
 http://golang.org/pkg/html/template/[html/template] library for its
 template engine. It is an extremely lightweight engine that provides a
