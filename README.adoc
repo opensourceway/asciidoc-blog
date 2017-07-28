@@ -68,6 +68,19 @@ To make changes to the setup, you can edit the config.toml file and set your web
 
 Content is available under the folder content/post. There are some example articles available to get you started.
 
+== Working with Asciidoc
+My personal preference is to use http://www.vim.org/download.php[Vim] for working with http://asciidoc.org/[Asciidoc],
+there are a number of plugins which make working with Asciidoc easier as well as a http://www.vim.org/scripts/script.php?script_id=1832[syntax file] for highlighting your document.
+
+If you are looking for something more visual, I would recommend the https://atom.io/[Atom editor] from GitHub.
+It has plugins which provide a real-time preview of your work and makes it easier to work with GitHub.
+Using Hugo, Asciidoc and the Atom editor, gives you a complete publishing system with real time previews and a local server to run validation against.
+
+[#img-atom]
+.Atom Editor, click for full screen
+[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor.png]
+image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor-thumbnail.png[Atom Editor with preview plugin]
+
 == Where to go from here?
 You can tailor the site in the config.toml file to personalise your setup. There are a number of https://themes.gohugo.io/[themes] available to further customise your site.
 The language behind the more dynamic elements is very well implemented and there's excellent documentation on the Hugo website on how to get started working with https://gohugo.io/templates/[content and theming]. The theme used in this demo is the https://themes.gohugo.io/strata/[Strata Theme] by https://github.com/digitalcraftsman[Digitalcraftsman] which has detailed documentation on configuration options available on it's https://github.com/digitalcraftsman/hugo-strata-theme[github page].

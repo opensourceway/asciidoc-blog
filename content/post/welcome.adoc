@@ -6,7 +6,7 @@ categories: ["Lorem"]
 date: "2017-08-03T13:39:46+02:00"
 ---
 
-= Creating a blog using Asciidoc and Hugo
+== Creating a blog using Asciidoc and Hugo
 This repo contains source materials to accompany the article on opensource.com for getting started with Hugo and asciidoc as a web development platform.
 
 [#img-homepage]
@@ -14,7 +14,7 @@ This repo contains source materials to accompany the article on opensource.com f
 [link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.png]
 image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.png[Demo Website]
 
-== Installing Asciidoc and Asciidoctor.
+==== Installing Asciidoc and Asciidoctor.
 .Ubuntu
 Asciidoc is available in the default repos.
 [source,bash]
@@ -36,10 +36,10 @@ For more detailed installation information, visit the following guides.
 * http://asciidoc.org/INSTALL.html[Asciidoc].
 * http://asciidoctor.org/docs/install-toolchain/[Asciidoctor].
 
-== Installing Hugo
+==== Installing Hugo
 The best guide for https://gohugo.io/getting-started/installing/[installing Hugo] is on their website. I found it was worth following this guide rather than use the package maintained in the Ubuntu repo as it was older and caused problems with modern themes.
 
-== How do I use these files?
+==== How do I use these files?
 The repo contains a demo website with some sample articles in Asciidoc. The following folders are useful starting points.
 
 .Clone the repo
@@ -72,16 +72,31 @@ To make changes to the setup, you can edit the config.toml file and set your web
 
 Content is available under the folder content/post. There are some example articles available to get you started.
 
+== Working with Asciidoc
+My personal preference is to use http://www.vim.org/download.php[Vim] for working with http://asciidoc.org/[Asciidoc],
+there are a number of plugins which make working with Asciidoc easier as well as a http://www.vim.org/scripts/script.php?script_id=1832[syntax file] for highlighting your document.
+
+If you are looking for something more visual, I would recommend the https://atom.io/[Atom editor] from GitHub.
+It has plugins which provide a real-time preview of your work and makes it easier to work with GitHub.
+Using Hugo, Asciidoc and the Atom editor, gives you a complete publishing system with real time previews and a local server to run validation against.
+
+[#img-atom]
+.Atom Editor, click for full screen
+[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor.png]
+image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor-thumbnail.png[Atom Editor with preview plugin]
+
 == Where to go from here?
-You can tailor the site in the config.toml file to personalise your setup. There are a number of themes available to further customise your site too.
-The language behind the more dynamic elements is very well implemented and there's excellent documentation on the Hugo website. The theme used in this demo is the https://themes.gohugo.io/strata/[Strata Theme] by https://github.com/digitalcraftsman[Digitalcraftsman] which has detailed documentation on configuration options available on it's https://github.com/digitalcraftsman/hugo-strata-theme[github page].
+You can tailor the site in the config.toml file to personalise your setup. There are a number of https://themes.gohugo.io/[themes] available to further customise your site.
+The language behind the more dynamic elements is very well implemented and there's excellent documentation on the Hugo website on how to get started working with https://gohugo.io/templates/[content and theming]. The theme used in this demo is the https://themes.gohugo.io/strata/[Strata Theme] by https://github.com/digitalcraftsman[Digitalcraftsman] which has detailed documentation on configuration options available on it's https://github.com/digitalcraftsman/hugo-strata-theme[github page].
 
 == Thanks and credit due.
 
 Thanks to http://spf13.com[Steve Francia]	for https://gohugo.io/[Hugo], for producing an amazing platform and fun to play with.
-The https://github.com/digitalcraftsman/hugo-strata-theme[Strata theme] port and the ttps://discourse.gohugo.io/[Hugo community].
+The https://github.com/digitalcraftsman/hugo-strata-theme[Strata theme] port and the https://discourse.gohugo.io/[Hugo community].
 
-=== Useful resources
+Useful resources
+++++++++++++++++
+
 .Hugo
 * https://gohugo.io/[Hugo]
  - https://gohugo.io/getting-started/installing/[Installation]
@@ -104,6 +119,7 @@ The https://github.com/digitalcraftsman/hugo-strata-theme[Strata theme] port and
  - http://www.vim.org/scripts/script.php?script_id=1832[Asciidoc Syntax]
  - http://www.vim.org/scripts/script.php?script_id=2882[Markdown Syntax]
 
-=== Demo and source materials
+Demo and source materials
++++++++++++++++++++++++++
  * https://themes.gohugo.io/strata/[Strata Theme]
  * http://spf13.com/[Steve Francia's homepage] maintainer of Hugo
