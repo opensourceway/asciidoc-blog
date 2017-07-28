@@ -7,8 +7,8 @@ This repo contains source materials to accompany the article on opensource.com f
 
 [#img-homepage]
 .The server
-[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.jpg]
-image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.jpg[Demo Website]
+[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.png]
+image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.png[Demo Website]
 
 ==== Installing Asciidoc and Asciidoctor.
 .Ubuntu
