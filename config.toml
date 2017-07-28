@@ -26,7 +26,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**Welcome**, asciidoc demo of a simple<br> responsive site template. Theme <br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "**Welcome**, demo of a simple<br /> responsive blog using Hugo and articles <br />written in Asciidoc."
 		# The icons will be shown if you enter your username
 		twitter = "opensourceway"
 		github = "opensourceway"

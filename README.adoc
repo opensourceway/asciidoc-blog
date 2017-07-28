@@ -55,7 +55,7 @@ image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/stat
 
 To make changes to the setup, you can edit the config.toml file and set your website preferences up. The site contains initial setup parameters.
 
-Content is available under the folder content/post. There's a combination of Markdown and Asciidoc files.
+Content is available under the folder content/post. Posts are a mixture of Asciidoc and MarkDown format.
 
 Useful resources
 ++++++++++++++++
