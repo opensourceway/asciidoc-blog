@@ -1,9 +1,9 @@
 ---
-title: "Go is for lovers"
+title: "Go!"
 date: 2017-07-26T14:31:37-04:00
 draft: false
 categories: ["Lorem"]
-date: "2017-08-03T13:39:46+02:00"
+date: "2016-08-03T13:39:46+02:00"
 ---
 
 == Go is for lovers!

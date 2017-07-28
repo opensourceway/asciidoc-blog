@@ -1,9 +1,92 @@
 ---
-title: "Welcome"
-date: 2017-07-26T14:31:37-04:00
+title: "Getting Started"
+date: 2016-07-26T14:31:37-04:00
 draft: false
 categories: ["Lorem"]
 date: "2017-08-03T13:39:46+02:00"
 ---
 
-Welcome
+== Welcome to the demo site
+Here's some notes to get you started. This repo contains source materials to accompany the article on opensource.com for getting started with Hugo and asciidoc as a web development platform.
+
+[#img-homepage]
+.The server
+[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.png]
+image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.png[Demo Website]
+
+==== Installing Asciidoc and Asciidoctor.
+.Ubuntu
+Asciidoc is available in the default repos.
+[source,bash]
+----
+sudo apt-get install asciidoc asciidoctor -y
+----
+
+.Fedora
+Asciidoctor can be installed using the gem command. Asciidoc is installed through the standard repos.
+[source,bash]
+----
+yum install asciidoc
+gem install asciidoctor
+----
+
+For more detailed installation information, visit the following guides.
+
+.Installation Guides
+* http://asciidoc.org/INSTALL.html[Asciidoc].
+* http://asciidoctor.org/docs/install-toolchain/[Asciidoctor].
+
+==== Installing Hugo
+The best guide for https://gohugo.io/getting-started/installing/[installing Hugo] is on their website. I found it was worth following this guide rather than use the package maintained in the Ubuntu repo as it was older and caused problems with modern themes.
+
+==== How do I use these files?
+The repo contains a demo website with some sample articles in Asciidoc.
+
+.Clone the repo
+[source,bash]
+----
+git clone git@github.com:opensourceway/asciidoc-blog.git
+cd asciidoc-blog
+hugo server  --buildDrafts
+----
+
+The last command will run the server where you can see your website locally on http://localhost:1313[http://localhost:1313].
+
+[#img-server]
+.The server
+[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-server.png]
+image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-server.png[Server Window]
+
+To make changes to the setup, you can edit the config.toml file and set your website preferences up. The site contains initial setup parameters.
+
+Content is available under the folder content/post. There's a combination of Markdown and Asciidoc files.
+
+Useful resources
+++++++++++++++++
+
+.Hugo
+* https://gohugo.io/[Hugo]
+ - https://gohugo.io/getting-started/installing/[Installation]
+ - https://gohugo.io/getting-started/quick-start/[Quick Start Guide]
+ - https://github.com/gohugoio/hugo[Github Repo]
+ - https://gohugo.io/tools/starter-kits/[Starter Kits]
+* https://themes.gohugo.io/[Hugo Themes]
+* https://discourse.gohugo.io/[Community]
+
+.Asciidoc
+* http://asciidoc.org/[Asciidoc]
+ - http://asciidoc.org/#_overview_and_examples[Code Examples]
+ - http://asciidoc.org/userguide.html[User Guide]
+ - http://powerman.name/doc/asciidoc[Cheat Sheet]
+* http://asciidoctor.org/[Asciidoctor]
+
+.Editors and Frontends
+* https://atom.io/[Atom Editor]
+* Vim Plugins
+ - http://www.vim.org/scripts/script.php?script_id=1832[Asciidoc Syntax]
+ - http://www.vim.org/scripts/script.php?script_id=2882[Markdown Syntax]
+
+Demo and source materials
++++++++++++++++++++++++++
+ * Demo Website
+ * http://spf13.com/[Steve Francia's homepage] maintainer of Hugo
