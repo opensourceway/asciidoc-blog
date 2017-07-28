@@ -7,42 +7,42 @@ categories: ["Lorem"]
 
 = A different kind of development platform
 
-During my day job, I work with content management systems and documentation. The main language of choice for
+During the day, I work with content management tools and documentation. Our preferred language of choice for
 documentation is Asciidoc. It has a simple syntax, but enough features to keep even a hard core techie happy.
 You can get up and running very quickly as the syntax is close to normal text.
 
 This got me thinking, "Wouldn't it be handy to be able to maintain a blog purely with Asciidoc?"
 
 Some quick Googling and chatting with colleagues and I was introduced to Hugo which is a platform which can
-work with MarkDown and Asciidoc through the use of Asciidoctor to generate a web page. The platform has a rich
-language for working with templates and content and could be used to build a blog with enough functionality to keep
-me happy, but without the need for a database. The pages are rendered HTML so the site is blazingly fast and
-very easy to maintain. It even comes with it's own server so I can test my site while I work on it.
+work with MarkDown and Asciidoc. The platform has a rich language for working with templates and content
+and could be used to build a blog with enough functionality to keep me happy, but without the need for a database.
+The pages are rendered HTML so the site is blazingly fast and very easy to maintain. It even comes with it's own
+server so I can test my site while I work on it.
 
-The site it builds, doesn't run on a platform which requires a database or even the need to run a language such as PHP.
+The site it builds, doesn't require a database or even the need to run a language such as PHP.
 This makes it especially handy if you're working on a site relating to security where the chance of being hacked is a real concern.
 There's no database, so no issues with SQL injection. It also means the website is much faster than a traditional blog platform.
-As long as your site can deliver HTML, you're good to go. Combining this with a CDN and you have a very fast site.
+As long as your site can deliver HTML, you're good to go. Combining this with a CDN and you have a very fast website.
 
 Hugo also supports tasks which are normally driven by your blogging platform, such as RSS feed generation. Feeds can be generated
 automatically when a new article is added. You can maintain articles in a "draft" state which will show up on your local machine, but
 won't be published until you mark them as ready for the world. Combining this with a Git branching strategy means multiple authors can
 work on articles and book them back into your main branch when ready to publish. Everyone can run a copy of the site locally
-while they work on their articles.
+while they work on their articles. Other interactive elements such as comments, can be included using disqus.
 
-I know I have said this before, that I want to build a blog that's simple where I can concentrate on
-the content and not the mechanics but I always end up giving in and tweaking it a little bit, then a little bit more,
-then a weekend is gone and I haven't written anything, just played with the theme. Hugo has a decent template system which
-satisfies my need to tweak the site, but as the core articles are written in Asciidoc, there's little to play with other than
-writing the article itself. Asciidoc also has great support transforming my content into other formats, such as a PDF.
+Whenever I work on a blog, I always say to myself that I want to concentrate on the content more than the "container". Until I build it
+and then I find myself constantly tweaking the platform. Then I tweak it a little more, then a weekend is gone and I haven't written anything!
+I ended up just playing with the theme. Hugo has a decent template system which satisfies my need to tweak the site. I can also do a lot more
+with a lot less code. Because the core articles are written in Asciidoc, I can focus on content rather than presentation. Asciidoc
+has great support for structure documents and can transform my content into other formats, such as a PDF, HTML or a linux manpage.
 
 This is done through "Asciidoctor" which is a digital swiss army knife for Asciidoc. Hugo uses Asciidoctor to
 convert the documents while I write them so I can see a live preview. It also helps me identify places my content needs work.
-Hugo runs in a console and shows me any syntax issues in my document. So I can fix them and move on. Which is different to my usual process
+Hugo runs in a console and shows me any syntax issues in my document. So I can fix them and move on. Which is different to my usual process ..
 
 [quote, Me at 3am on very little sleep and too much coffee']
 ____
-It's done! and now to post my masterpiece to the world! ....
+My blog post is done! and now to send my masterpiece to the world! ....
 wait a minute, why is all my text a H1...... I hate myself.
 ____
 
