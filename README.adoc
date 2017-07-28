@@ -2,9 +2,49 @@
 :Author:    Andy Thornton
 :Email:     andy.thornton@redhat.com
 
-Creating a blog using Asciidoc and Hugo
+== Creating a blog using Asciidoc and Hugo
+This repo contains source materials to accompany the article on opensource.com for getting started with Hugo and asciidoc as a web development platform.
 
-Support files for article on creating a blog using Asciidoc and Hugo
+
+==== Installing Asciidoc and Asciidoctor.
+.Ubuntu
+Asciidoc is available in the default repos.
+[source,bash]
+----
+sudo apt-get install asciidoc asciidoctor -y
+----
+
+.Fedora
+Asciidoctor can be installed using the gem command. Asciidoc is installed through the standard repos.
+[source,bash]
+----
+yum install asciidoc
+gem install asciidoctor
+----
+
+For more detailed installation information, visit the following guides.
+
+.Installation Guides
+* http://asciidoc.org/INSTALL.html[Asciidoc].
+* http://asciidoctor.org/docs/install-toolchain/[Asciidoctor].
+
+==== Installing Hugo
+The best guide for https://gohugo.io/getting-started/installing/[installing Hugo] is on their website. I found it was worth following this guide rather than use the package maintained in the Ubuntu repo as it was older and caused problems with modern themes.
+
+==== How do I use these files?
+The repo contains a demo website with some sample articles in Asciidoc.
+
+.Clone the repo
+[source,bash]
+----
+git clone git@github.com:opensourceway/asciidoc-blog.git
+cd asciidoc-blog
+hugo server  --buildDrafts
+----
+
+If everything works, you can see the website on http://localhost:1313[http://localhost:1313]. To make changes to the setup, you can edit the config.toml file and set your website preferences up. The site contains initial setup parameters.
+
+Content is available under the folder content/port. There's a combination of Markdown and Asciidoc files.
 
 Useful resources
 ++++++++++++++++
