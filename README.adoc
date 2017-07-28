@@ -44,7 +44,7 @@ The repo contains a demo website with some sample articles in Asciidoc. The foll
 git clone git@github.com:opensourceway/asciidoc-blog.git
 ----
 [#img-folders]
-.The server
+.Folder Structure
 [link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-folders.png]
 image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-folders.png[Folders Overview]
 
