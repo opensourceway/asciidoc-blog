@@ -5,6 +5,10 @@
 == Creating a blog using Asciidoc and Hugo
 This repo contains source materials to accompany the article on opensource.com for getting started with Hugo and asciidoc as a web development platform.
 
+[#img-homepage]
+.The server
+[link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.jpg]
+image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-homepage.jpg[Demo Website]
 
 ==== Installing Asciidoc and Asciidoctor.
 .Ubuntu
@@ -44,7 +48,7 @@ hugo server  --buildDrafts
 
 The last command will run the server where you can see your website locally on http://localhost:1313[http://localhost:1313].
 
-[#img-sunset]
+[#img-server]
 .The server
 [link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-server.png]
 image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-server.png[Server Window]
