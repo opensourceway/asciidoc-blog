@@ -47,9 +47,9 @@ wait a minute, why is all my text a H1...... I hate myself.
 ____
 
 == Documentation workflow
-I normally write my first drafts in plain English, to get everything started. I normally create a new branch in git for each article
-which keeps things nice and simple. Once I have that down and given it a couple of passes to make sure everything flows well, I add asciidoc
-markup so it can format the article as clean HTML. When the article is ready to publish, I merge it back into my master branch.
+I normally write my first drafts in plain English, to get everything started. I use a new branch in git for each article
+which keeps things nice and simple until I am ready to publish. Once I have that down and given it a couple of passes to make sure everything flows well, I add asciidoc
+markup so Hugo can format the article as clean HTML. When the article is ready to publish, I merge it back into my master branch.
 
 If I need to add the same text repeatedly, I use an include to contain boilerplate text. These can be setup in my template or I can add them as needed
 this means I can include a standard license statement or define a different license depending on the type or article I am writing. It's also handy if
@@ -71,6 +71,12 @@ branches becomes straight forward.
 [link=https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor.png]
 image::https://raw.githubusercontent.com/opensourceway/asciidoc-blog/master/static/images/screenshot-atom-editor-thumbnail.png[Atom Editor with preview plugin]
 
-If you are interested in getting started with Hugo and Asciidoc, I put together a demo website with content and
-they are available from the https://github.com/opensourceway/asciidoc-blog[Opensourceway's Github] page. Rather than filling this article with step by step instructions
-on how to download and tweak Hugo and Asciidoc, I have put notes into the website along with links to resources on-line to help get you started.
+Overall, I am very happy with Hugo and Asciidoc. My process becomes more "content focused". I have a great work flow with git and the performance on the site is
+noticeable when compared to a traditional php / mysql CMS.
+
+== How can I play with this setup?
+If you are interested in getting started with Hugo and Asciidoc, I put together a demo website with content and a theme along with notes on how to get up and running.
+It is available from the https://github.com/opensourceway/asciidoc-blog[Opensourceway's Github] page. Rather than filling this article with step by step instructions
+on how to download and configure Hugo and how to write with Asciidoc. I have put notes into the website along with links to resources on-line to help get you started.
+
+Have fun with Asciidoc and Hugo, post links in the comments to any projects you produce with Hugo. 
